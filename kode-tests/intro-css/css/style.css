@@ -1,0 +1,43 @@
+/* Øvelse 1: tre baggrundsfarver */
+/* Øvelse 2: lav en ramme (border). Er tilføjet til 'section' */
+
+.montserrat-alternates-extralight {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/* .montserrat-alternates-extralight = en class-attribut, der ikke bliver brugt (vi lærer class senere)
+Dens attributter (font-family, -weight og -style) sættes ind ved specifikke elementer - ligesom h1 herunder */
+
+*{
+  box-sizing: border-box;
+}
+/* stjernesymbolet (*) betyder at det skal gælde for al HTML'en */
+
+body {
+  background-color: bisque;
+}
+h1 {
+  color: blueviolet;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  /* font-weight = skriftens tykkelse */
+  font-style: normal;
+}
+section {
+  background-color: white;
+  border: 3px solid green;
+  margin-bottom: 2rem;
+}
+/* specificering: længere nede er p. Alle p skal være hvide, indtil den støder på section p */
+section p {
+  color: blue;
+}
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  color: white;
+  background-color: gray;
+}

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+}
+h1 {
+  color: blueviolet;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  /* font-weight = skriftens tykkelse */
+  font-style: normal;
+}
+section {
+  background-color: white;
+  width: 100%;
+  border: 3px solid green;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
